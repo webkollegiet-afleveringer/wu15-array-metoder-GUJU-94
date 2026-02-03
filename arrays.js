@@ -43,3 +43,23 @@ console.log(dog);
 
 let petdog = dogsArray.includes ("Baxter")
 console.log(petdog);
+
+// Opgave 4a
+
+// Check om der i catsArray er en kat som hedder "Bagheera".
+
+// Udskriv katten i konsollen hvis den findes og ellers "undefined".
+
+// console.log("Opgave 4a", ...)
+
+const found = catsArray.find((element) => element == "Bagheera");
+console.log(found);
+
+// Opgave 4b
+
+// Check om der i catsArray er en kat som hedder "Salem".
+
+// Udskriv katten i konsollen hvis den findes og ellers "undefined".
+
+// console.log("Opgave 4b", ...)
+
