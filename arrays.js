@@ -78,4 +78,17 @@ const nytArray = numbersArray.map(function(thisNumber){
 })
 console.log(nytArray);
 
-// numbersArray.map(()=>{})
+// numbersArray.map(()=>{}) det beytyder det samme som function this number, bare en forkortelse
+
+// Opgave 6
+
+// Udskriv alle hundene i dogsArray i én lang streng.
+
+// (Sådan her: BarneyMollyBaxter...)
+
+// Udskriv strengen konsollen:
+
+// console.log("Opgave 6", ...)
+
+const nydogArray = dogsArray.join ("")
+console.log(nydogArray);
