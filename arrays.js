@@ -63,3 +63,6 @@ console.log(found);
 
 // console.log("Opgave 4b", ...)
 
+
+const founded = catsArray.find((element) => element == "Salem");
+console.log(founded);
