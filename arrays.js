@@ -24,3 +24,19 @@ catsArray.push("Sniffels")
 console.log(catsArray);
 
 catsArray.forEach ((catName)=>{console.log(catName)})
+
+// Opgave 3a
+// Check om der i dogsArray er en hund som hedder "Trixie".
+// Udskriv "true" eller "false" i konsollen afhængig af svaret.
+// console.log("Opgave 3a", ...)
+
+let dog = dogsArray.includes ("Trixie")
+console.log(dog);
+
+// Opgave 3b
+
+// Check om der i dogsArray er en hund som hedder "Baxter".
+
+// Udskriv "true" eller "false" i konsollen afhængig af svaret.
+
+// console.log("Opgave 3b", ...)
