@@ -115,3 +115,22 @@ console.log(newfruitsArray);
 
 const newestfruitsArray = fruitsArray.indexOf ("Blåbær")
 console.log(newestfruitsArray);
+
+// Opgave 8
+
+// Lad os forestille os, at dogsArray er en liste af tilmeldte hunde til en udstilling.
+
+// Den familie der har hunden "Polly" er desværre blevet forhindret i at deltage i udstillingen.
+
+// Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
+
+// console.log("Opgave 8", ...)
+
+const pollyIndex = dogsArray.indexOf ("Polly")
+console.log(pollyIndex);
+
+
+console.log([...dogsArray]);
+console.log(dogsArray.toSpliced(pollyIndex,1));
+
+
