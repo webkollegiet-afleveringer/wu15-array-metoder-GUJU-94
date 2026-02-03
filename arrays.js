@@ -102,6 +102,9 @@ console.log(nydogArray);
 // console.log("Opgave 7a", ...)
 
 
+const newfruitsArray = fruitsArray.indexOf ("Mango")
+console.log(newfruitsArray);
+
 // Opgave 7b
 
 // Find ud af hvilket index "Blåbær" har i fruitsArray.
@@ -110,5 +113,5 @@ console.log(nydogArray);
 
 // console.log("Opgave 7b", ...)
 
-const newfruitsArray = fruitsArray.indexOf ("Mango")
-console.log(newfruitsArray);
+const newestfruitsArray = fruitsArray.indexOf ("Blåbær")
+console.log(newestfruitsArray);
