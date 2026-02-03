@@ -13,3 +13,14 @@ console.log(res);
 
 // opgave 2
 
+// Tilføj katten "Sniffles" til catsArray.
+
+// Udskriv arrayet i konsollen.
+
+// console.log("Opgave 2", ...)
+
+catsArray.push("Sniffels")
+
+console.log(catsArray);
+
+catsArray.forEach ((catName)=>{console.log(catName)})
