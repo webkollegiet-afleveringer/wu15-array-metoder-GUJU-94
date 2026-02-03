@@ -66,3 +66,16 @@ console.log(found);
 
 const founded = catsArray.find((element) => element == "Salem");
 console.log(founded);
+
+// Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
+
+// Udskriv det nye array i konsollen:
+
+// console.log("Opgave 5", ...)
+
+const nytArray = numbersArray.map(function(thisNumber){
+   return thisNumber *3
+})
+console.log(nytArray);
+
+// numbersArray.map(()=>{})
