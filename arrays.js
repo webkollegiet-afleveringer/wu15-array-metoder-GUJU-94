@@ -40,3 +40,6 @@ console.log(dog);
 // Udskriv "true" eller "false" i konsollen afhængig af svaret.
 
 // console.log("Opgave 3b", ...)
+
+let petdog = dogsArray.includes ("Baxter")
+console.log(petdog);
